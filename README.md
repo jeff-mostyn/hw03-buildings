@@ -12,6 +12,8 @@ Some unique features of this style include heavy use of wrought-iron balconies, 
 
 In addition to the features implemented in the tutorial video, I also (partially) succeeded in implementing the ability to add balconies that span the width of a floor, and if adjacent sides of the building have such a balcony, have a curved corner piece linking them together such that the balcony wraps around the structure. The lacking portion of this feature is that non-shared sides of the balcony presently do not render with railings. 
 
+The HDA in my houdini file lives at the path `obj/building`
+
 Example video:
 https://github.com/jeff-mostyn/hw03-buildings/blob/main/jmostyn_buildingGenerator.mp4
 
