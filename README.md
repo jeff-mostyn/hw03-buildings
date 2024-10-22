@@ -4,6 +4,18 @@
 In this homework you’ll gain more experience with tool creation and loops. The core of this homework will be following a Procedural House tutorial to create a multi-floor building generator. The tutorial is linked here: 
 https://www.youtube.com/watch?v=uIe97023sDk&t=979s&ab_channel=SimonHoudini 
 
+# Submission Description
+
+I aimed to replicate features of buildings in the style of Cuban / Central American colonial architecture. 
+
+Some unique features of this style include heavy use of wrought-iron balconies, tall windows often with wrought-iron rails and bars on the lower halves, and doors with windows and/or ornamentation above them.
+
+In addition to the features implemented in the tutorial video, I also (partially) succeeded in implementing the ability to add balconies that span the width of a floor, and if adjacent sides of the building have such a balcony, have a curved corner piece linking them together such that the balcony wraps around the structure. The lacking portion of this feature is that non-shared sides of the balcony presently do not render with railings. 
+
+Example video:
+https://github.com/jeff-mostyn/hw03-buildings/blob/main/jmostyn_buildingGenerator.mp4
+
+# Assignment Description Below
 ## Part 0: Setup and Planning 
 ### SideFX Labs 
 The tutorial requires some nodes from SideFX Labs. If you haven’t already installed it, you can do so at the “Labs/Packages” tab of the Houdini Launcher.  
